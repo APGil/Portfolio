@@ -1,0 +1,63 @@
+/*BODY*/
+body
+{
+    font-size: 20px;
+    background-image: url('img/background_test.jpg');
+    position: relative;
+    margin: 0px auto;
+    width: 1700px;
+    height: 1024px;
+    font-family: monospace;
+    color: antiquewhite;
+}
+
+.nav
+{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 50px;
+    position: inherit;
+}
+
+
+
+#cast:hover
+{
+    transform: scale(1.1);
+}
+
+
+#zomb:hover
+{
+    transform: scale(1.1);
+}
+
+#wing:hover
+{
+    transform: scale(1.1);
+}
+
+#rob:hover
+{
+    transform: scale(1.1);
+}
+
+#tete:hover
+{
+    transform: scale(1.1);
+}
+
+/*Escultura digital*/
+
+#drac:hover
+{
+    transform: scale(1.1);
+}
+
+#bk{
+    width: 75px;
+    height: auto;
+    position: absolute;
+    top: 250px;
+    left: 0px;
+}

@@ -1,0 +1,49 @@
+body
+{
+    font-size: 20px;
+    background-image: url('img/background_test.jpg');
+    position: relative;
+    margin: 0px auto;
+    width: 1700px;
+    height: 1024px;
+    font-family: monospace;
+    color: antiquewhite;
+    background-repeat: no-repeat;
+    overflow: auto;
+}
+
+.nav
+{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 50px;
+    position: inherit;
+}    
+
+.things{
+    width: 400px;
+    height: auto;
+    position: inherit;
+    margin-left: 50px;
+    border:solid 2px dimgray;
+}
+
+.nav:hover{
+    transform: scale(1.5);
+}
+
+#gran{
+    left: 100px;
+    top: 20px;
+    visibility: hidden;
+    position: absolute;
+}
+
+
+#bk{
+    width: 75px;
+    height: auto;
+    position: absolute;
+    top: 250px;
+    left: 0px;
+}

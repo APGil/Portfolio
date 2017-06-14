@@ -1,0 +1,123 @@
+/*BODY*/
+body
+{
+    font-size: 20px;
+    font-family: monospace;
+    background-image: url('img/background_test.jpg');
+    position: relative;
+    margin: 0px auto;
+    width: 1024px;
+    height: 1100px;
+    overflow: auto;
+}
+
+
+/*NAVEGADOR D'OPCIONS*/
+
+    /*Coses de la llista*/
+
+#opcions
+{
+    left: 275px;
+    text-align: center;
+    position: absolute;
+}
+
+.nav
+{
+    display: inline-block;
+    margin-top: 12px;
+    position: absolute;
+    border-bottom: solid 2px dimgray;
+}
+
+a 
+{
+    text-decoration: none;
+    font-family: monospace;
+    color: lightgray;
+    text-align: center;
+    position: absolute;
+}
+
+.things
+{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    border:solid 2px dimgray;
+}
+
+
+#mod:hover
+{
+    background: darkorange;
+    transform: scale(1.1);
+}
+
+/*disseny*/
+
+#diss
+{
+    left: 550px;
+}
+
+#diss:hover
+{
+    background: aqua;
+    transform: scale(1.1);
+    color: black;
+}
+
+/*programació*/
+
+#prog
+{
+    top: 350px;
+}
+
+#prog:hover
+{
+    background: antiquewhite;
+    transform: scale(1.1);
+    color: black;
+}
+
+/*animació*/
+
+#anim
+{
+    left: 550px;
+    top: 350px;
+}
+
+#anim:hover
+{
+    background: darkred;
+    transform: scale(1.1);
+}
+
+/*altres*/
+
+#alt
+{
+    left: 250px;
+    top: 700px;
+}
+
+#alt:hover
+{
+    background: darkgreen;
+    transform: scale(1.1);
+}
+
+#bk{
+    width: 75px;
+    height: auto;
+    position: absolute;
+    top: 250px;
+    left: -100px;
+}
+
+
+

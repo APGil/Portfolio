@@ -1,0 +1,45 @@
+/*BODY*/
+body{
+    font-size: 20px;
+    font-family: monospace;
+    background-image: url('img/background_test.jpg');
+    position: relative;
+    margin: 0px auto;
+    width: 1024px;
+    height: 1024px;
+    overflow: hidden;
+}
+
+h1{
+    top: 10px;
+    left: 375px;
+    color: darkcyan;
+    border: none;
+    text-align: center;
+    text-shadow: 0 1px 0  aquamarine, 0 2px 0 aquamarine , 0 3px 0 aquamarine , 0 4px 0 aquamarine , 0 5px 0 aquamarine, 0 6px 1px aquamarine , 0 0 5px aquamarine , 0 1px 3px aquamarine, 0 3px 5px aquamarine , 0 5px 10px aquamarine, 0 10px 10px aquamarine, 0 20px 20px aquamarine ;
+    position: absolute;
+}
+
+p{
+    top: 100px;
+    left: 250px;
+    width: 500px;
+    height: 500px;
+    background-color: darkslategray;
+    color: antiquewhite;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid darkcyan;
+    box-shadow: 10px 10px 5px aquamarine;
+    position: absolute;
+}
+
+#bk{
+    width: 75px;
+    height: auto;
+    position: absolute;
+    top: 250px;
+    left: 0px;
+}
